@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react';
+import moment from 'moment';
 import './App.css';
 import azure from "./azure.png";
 import {CallService} from "./modules/common/http";
@@ -13,7 +14,7 @@ class App extends Component {
           <h2>Azure in a Day</h2>
         </div>
         <p className="App-intro">
-          DevOps
+          DevOps at {moment().format('h:mm:ss a')} of {moment().format('D MMMM YYYY')}
         </p>
         <p>
           <button
