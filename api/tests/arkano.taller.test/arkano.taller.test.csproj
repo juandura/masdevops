@@ -10,7 +10,6 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.1.14" />
     <PackageReference Include="MSTest.TestFramework" Version="1.1.14" />
-    <PackageReference Include="NLog" Version="5.0.0-beta06" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta001" />
   </ItemGroup>
   <ItemGroup>

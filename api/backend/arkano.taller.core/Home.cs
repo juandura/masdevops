@@ -7,7 +7,8 @@
 
     public class Home
     {
-        private string text = "Rock & Roll!";
+        private string text = "Answer from server running on OS: " + 
+            System.Runtime.InteropServices.RuntimeInformation.OSDescription;
 
         public Home()
         {
