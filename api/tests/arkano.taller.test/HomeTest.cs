@@ -13,5 +13,11 @@ namespace arkano.taller.test
             Assert.IsTrue(value > 0);
             Assert.IsFalse(string.IsNullOrEmpty(new Home().Text));
         }
+
+        [TestMethod]
+        public void Test02()
+        {
+            Assert.IsTrue(true);
+        }
     }
 }
