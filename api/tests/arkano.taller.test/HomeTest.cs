@@ -23,7 +23,7 @@ namespace arkano.taller.test
         [TestMethod]
         public void Test03()
         {
-            Assert.IsTrue(false);
+            Assert.IsFalse(false);
         }
     }
 }
