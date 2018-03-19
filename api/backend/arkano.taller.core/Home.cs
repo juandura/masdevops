@@ -7,7 +7,7 @@
 
     public class Home
     {
-        private string text = "UTE DevOps workshop. Answer from server running on OS " + 
+        private string text = "UTE DevOps live demo 01. Answer from server running on OS " + 
             System.Runtime.InteropServices.RuntimeInformation.OSDescription;
 
         public Home()
