@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={azure} className="App-logo" alt="logo" />
-          <h2>UTE DevOps Workshop</h2>
+          <h2>DevOps Workshop</h2>
         </div>
         <p className="App-intro">
           DevOps at {moment().format('h:mm:ss a')} of {moment().format('D MMMM YYYY')}
